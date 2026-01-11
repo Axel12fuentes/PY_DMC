@@ -1,0 +1,16 @@
+﻿source_site,course_name,course_type,price_raw,price_currency,instructor,duration,syllabus_content,certification_type,brochure_url,url,platform,modality,price_old,level,start_date,technologies,description
+SmartData,Chief AI Officer: Estrategia e Implementación de IA y Datos,Curso,$206,N/A,N/A,Destacado,N/A,N/A,N/A,https://smartdata.com.pe/curso/chief-ai-officer-estrategia-ia-datos/,SmartData,Online,$822,N/A,15 de enero,N/A,N/A
+SmartData,Ciberseguridad en Azure,Curso,$411,N/A,N/A,Destacado,N/A,N/A,N/A,https://smartdata.com.pe/curso/ciberseguridad-en-azure/,SmartData,Online,$822,N/A,14 de febrero,Azure,N/A
+SmartData,Automatización y Agentes IA con Microsoft Power Platform,Curso,$385,N/A,N/A,Destacado,N/A,N/A,N/A,https://smartdata.com.pe/curso/automatizacion-agentes-ia-microsoft-power-platform/,SmartData,Online,$770,N/A,24 de febrero,N/A,N/A
+SmartData,Ingenieria de Datos con Microsoft Fabric,Curso,$415,N/A,N/A,Destacado,N/A,N/A,N/A,https://smartdata.com.pe/curso/ingenieria-datos-con-microsoft-fabric/,SmartData,Online,$830,N/A,20 de enero,"Azure, Fabric",N/A
+SmartData,Ciencia de Datos e IA Generativa con Python,Curso,$385,N/A,N/A,Destacado,N/A,N/A,N/A,https://smartdata.com.pe/curso/ciencia-datos-ia-generativa-python/,SmartData,Online,"$1,170",N/A,03 de febrero,Python,N/A
+SmartData,Ingeniería de Datos e IA con Databricks,Curso,$411,N/A,N/A,Destacado,N/A,N/A,N/A,https://smartdata.com.pe/curso/ingenieria-datos-ia-con-databricks/,SmartData,Online,$822,N/A,20 de enero,Azure,N/A
+SmartData,Análisis de Datos con SQL,Curso,$147,N/A,N/A,Destacado,N/A,N/A,N/A,https://smartdata.com.pe/curso/analisis-datos-sql/,SmartData,Online,$294,N/A,15 de enero,SQL,N/A
+SmartData,Ingeniería de Datos e IA con Azure,Curso,$382,N/A,N/A,Destacado,N/A,N/A,N/A,https://smartdata.com.pe/curso/ingenieria-datos-ia-azure/,SmartData,Online,$764,N/A,18 de febrero,Azure,N/A
+SmartData,Arquitecto de Soluciones en AWS,Curso,$411,N/A,N/A,Destacado,N/A,N/A,N/A,https://smartdata.com.pe/curso/arquitecto-soluciones-aws/,SmartData,Online,$702,N/A,08 de enero,AWS,N/A
+SmartData,IA Generativa Aplicada: LLM’s y Automatización Inteligente,Curso,$415,N/A,N/A,Destacado,N/A,N/A,N/A,https://smartdata.com.pe/curso/ia-generativa-aplicada-llm-automatizacion-inteligente/,SmartData,Online,$830,N/A,13 de enero,N/A,N/A
+SmartData,Power BI Data Analyst & Storytelling,Curso,$264,N/A,N/A,Destacado,N/A,N/A,N/A,https://smartdata.com.pe/curso/power-bi-data-analyst-storytelling/,SmartData,Online,$528,N/A,28 de enero,Power BI,N/A
+SmartData,DevSecOps con Microsoft Azure,Curso,$415,N/A,N/A,Destacado,N/A,N/A,N/A,https://smartdata.com.pe/curso/devsecops-con-microsoft-azure/,SmartData,Online,$830,N/A,19 de febrero,Azure,N/A
+SmartData,Arquitecto de Soluciones en Azure,Curso,$415,N/A,N/A,Destacado,N/A,N/A,N/A,https://smartdata.com.pe/curso/arquitecto-soluciones-azure/,SmartData,Online,$830,N/A,12 de enero,Azure,N/A
+SmartData,Ingeniería de Datos e IA con AWS,Curso,$314,N/A,N/A,Destacado,N/A,N/A,N/A,https://smartdata.com.pe/curso/ingenieria-datos-ia-aws/,SmartData,Online,$630,N/A,10 de febrero,AWS,N/A
+SmartData,Ingeniería de Datos e IA con GCP,Curso,$324,N/A,N/A,Destacado,N/A,N/A,N/A,https://smartdata.com.pe/curso/ingenieria-datos-ia-gcp/,SmartData,Online,$650,N/A,08 de enero,GCP,N/A
