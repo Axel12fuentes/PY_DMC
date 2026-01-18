@@ -1,148 +1,161 @@
 import requests
-from bs4 import BeautifulSoup
 import re
+import os
+import pdfplumber
+import time
 from base_scraper import BaseScraper
+from playwright.sync_api import sync_playwright
+from utils.llm_helper import LLMHelper
 
 class SmartDataScraper(BaseScraper):
     def __init__(self):
         super().__init__("SmartData")
         self.base_url = "https://smartdata.com.pe/cursos/"
+        self.download_dir = "scrapers/downloads/smartdata"
+        if not os.path.exists(self.download_dir):
+            os.makedirs(self.download_dir)
+        self.llm_helper = LLMHelper()
 
     def get_urls(self):
         return [self.base_url]
 
     def parse_course(self, url):
-        # Implementation for single course details if needed
         pass
 
     def parse_catalog(self):
-        print(f"Fetching SmartData catalog from: {self.base_url}")
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-        }
+        print(f"Starting Playwright scraper for SmartData...")
+
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            page = browser.new_page()
+            
+            # 1. Navigate to Catalog
+            print(f"Navigating to: {self.base_url}")
+            page.goto(self.base_url, timeout=60000)
+            page.wait_for_load_state("networkidle")
+            
+            # 2. Extract Course Links
+            # Use robust filtering as per inspection
+            links = page.query_selector_all("a")
+            course_urls = set()
+            for link in links:
+                href = link.get_attribute("href")
+                if href and ("/curso/" in href or "/especializacion/" in href) and "course-category" not in href:
+                    course_urls.add(href)
+            
+            print(f"Found {len(course_urls)} potential courses.")
+
+            # 3. Iterate
+            for url in course_urls:
+                self.process_course_detail(page, url)
+            
+            browser.close()
+
+    def process_course_detail(self, page, url):
+        print(f"  Scraping: {url}")
         try:
-            response = requests.get(self.base_url, headers=headers)
-            response.raise_for_status()
+            page.goto(url, timeout=60000)
+            page.wait_for_load_state('networkidle')
+            
+            # Title
+            title = page.title()
+            h1 = page.query_selector("h1.tutor-course-title")
+            if h1: title = h1.inner_text().strip()
+
+            # Price
+            price_current = "N/A"
+            price_original = "N/A"
+            
+            # SmartData usually has .price .amount
+            # Or WooCommerce structure
+            price_els = page.query_selector_all(".price .amount")
+            # If multiple, assumption: first is current, second is old? or vice-versa?
+            # Or look for del/ins
+            
+            ins_el = page.query_selector("ins .amount")
+            del_el = page.query_selector("del .amount")
+            
+            if ins_el:
+                price_current = ins_el.inner_text().strip()
+            elif price_els:
+                price_current = price_els[0].inner_text().strip()
+                
+            if del_el:
+                price_original = del_el.inner_text().strip()
+
+            print(f"    Prices: {price_current} / {price_original}")
+
+            # Brochure Download
+            pdf_path = None
+            brochure_url = "N/A"
+            
+            # Look for button "Descargar plan de estudios" or "Brochure"
+            # It might target a modal: #ums_course_brochure_modal
+            btn = page.get_by_text("Descargar plan de estudios", exact=False).first
+            if not btn.is_visible():
+                btn = page.get_by_text("Brochure", exact=False).first
+            
+            if btn.is_visible():
+                print("    Found Brochure button. Initiating form flow...")
+                btn.click()
+                time.sleep(2)
+                
+                # Check for form inputs
+                # SmartData uses TutorLMS or similar.
+                # Form might be in a modal.
+                
+                # Try simple form filling
+                try:
+                    name_in = page.locator("input[name*='name']").first
+                    if name_in.is_visible(): name_in.fill("Juan Perez")
+                    
+                    email_in = page.locator("input[name*='email']").first
+                    if email_in.is_visible(): email_in.fill("juan.perez.test@example.com")
+                    
+                    phone_in = page.locator("input[name*='phone']").first
+                    if phone_in.is_visible(): phone_in.fill("999999999")
+
+                    with page.expect_download(timeout=15000) as download_info:
+                        submit = page.locator("button[type='submit']").first
+                        if submit.is_visible():
+                            submit.click()
+                        else:
+                            # Try finding submit input
+                            page.locator("input[type='submit']").first.click()
+
+                    download = download_info.value
+                    safe_name = re.sub(r'[^a-zA-Z0-9]', '_', title).strip('_') + ".pdf"
+                    pdf_path = os.path.join(self.download_dir, safe_name)
+                    download.save_as(pdf_path)
+                    print(f"    Downloaded: {pdf_path}")
+                    brochure_url = "Downloaded via Form"
+                except Exception as e:
+                    print(f"     Brochure download error: {e}")
+            
+            # PDF Extraction
+            pdf_info = {}
+            if pdf_path and os.path.exists(pdf_path):
+                 pdf_info = self.llm_helper.extract_from_pdf(pdf_path)
+
+            item = {
+                "course_name": title,
+                "course_type": "Especialización" if "especializacion" in url else "Curso",
+                "price_raw": price_current,
+                "price_currency": "PEN" if "S/" in price_current else "USD",
+                "price_raw_original": price_original, # Keeping naming flexible
+                "duration": pdf_info.get("duration", "N/A"),
+                "url": url,
+                "start_date": pdf_info.get("start_date", "N/A"),
+                "brochure_url": brochure_url,
+                "content_updated": pdf_info.get("content", "N/A"),
+                "instructor_exp": pdf_info.get("instructor", "N/A"),
+                "methodology": pdf_info.get("methodology", "N/A"),
+                "certification": pdf_info.get("certification", "N/A")
+            }
+            self.add_item(item)
+            
         except Exception as e:
-            print(f"Error fetching SmartData catalog: {e}")
-            return
-
-        soup = BeautifulSoup(response.text, 'html.parser')
-        
-        # Based on analysis, courses are in .tutor-course elements
-        course_cards = soup.select('.tutor-course')
-        print(f"Found {len(course_cards)} SmartData course cards.")
-
-        for card in course_cards:
-            try:
-                # Name
-                title_el = card.select_one('.course-loop-title h2.title a, .tutor-course-title a')
-                program_name = title_el.get_text(strip=True) if title_el else "N/A"
-                if program_name == "N/A":
-                    # Try finding any link with "curso" in href inside the card
-                    any_link = card.select_one('a[href*="/curso/"]')
-                    if any_link:
-                        program_name = any_link.get_text(strip=True)
-                
-                if program_name == "N/A": continue
-
-                # URL
-                detail_url = title_el['href'] if title_el and title_el.has_attr('href') else "N/A"
-                if detail_url == "N/A":
-                    link_overlay = card.select_one('.link-overlay')
-                    detail_url = link_overlay['href'] if link_overlay and link_overlay.has_attr('href') else "N/A"
-
-                # Type
-                # Yellow badge on image or within labels
-                type_el = card.select_one('.tutor-course-loop-level, .badge-yellow, .tutor-course-label, .featured-label')
-                # If not found, look for "ESPECIALIZACIÓN" text in badges
-                badges = card.select('.tutor-meta-value, .featured-label')
-                program_type = "Curso"
-                for b in badges:
-                    txt = b.get_text(strip=True).upper()
-                    if "ESPECIALIZACIÓN" in txt or "DIPLOMA" in txt:
-                        program_type = txt.capitalize()
-                        break
-                
-                if program_type == "Curso" and "especializacion" in detail_url.lower():
-                    program_type = "Especialización"
-                
-                # Check for explicit specialization label from analysis
-                spec_label = card.select_one('.tutor-course-loop-level')
-                if spec_label and "ESPECIALIZACIÓN" in spec_label.get_text(strip=True).upper():
-                    program_type = "Especialización"
-
-                # Modality
-                # SmartData often indicates "En vivo" or "Online"
-                modality = "Online" # Default
-                content_text = card.get_text().lower()
-                if "en vivo" in content_text:
-                    modality = "En vivo"
-                elif "grabado" in content_text:
-                    modality = "Grabado"
-
-                # Price
-                price = "N/A"
-                price_el = card.select_one('.price_desc, .tutor-price')
-                if price_el:
-                    price = price_el.get_text(strip=True)
-                
-                # Check for old price
-                old_price_el = card.select_one('del')
-                old_price = old_price_el.get_text(strip=True) if old_price_el else "N/A"
-
-                # Duration
-                duration = "N/A"
-                duration_el = card.select_one('.tutor-course-loop-duration, .course-header-meta')
-                if duration_el:
-                    duration = duration_el.get_text(strip=True)
-
-                # Level
-                level = "N/A"
-                level_el = card.select_one('.tutor-course-loop-level')
-                if level_el:
-                    level = level_el.get_text(strip=True)
-
-                # Technologies
-                # Usually logos on the image, might be harder to extract via BS4 text
-                # We can check the description for mentions
-                technologies = []
-                tools = ["SQL", "Python", "Power BI", "Azure", "GCP", "AWS", "Fabric", "Pandas", "Spark"]
-                for tool in tools:
-                    if tool.lower() in content_text:
-                        technologies.append(tool)
-                
-                tech_str = ", ".join(technologies) if technologies else "N/A"
-
-                # Description
-                description = "N/A"
-                desc_el = card.select_one('.tutor-course-loop-excerpt, .tutor-course-content')
-                if desc_el:
-                    description = desc_el.get_text(strip=True)
-
-                # Start Date
-                start_date_el = card.select_one('.date-course')
-                start_date = start_date_el.get_text(strip=True) if start_date_el else "N/A"
-
-                item = {
-                    "platform": "SmartData",
-                    "course_type": program_type,
-                    "course_name": program_name,
-                    "modality": modality,
-                    "price_raw": price,
-                    "price_old": old_price,
-                    "duration": duration,
-                    "level": level,
-                    "start_date": start_date,
-                    "technologies": tech_str,
-                    "url": detail_url,
-                    "description": description
-                }
-                self.add_item(item)
-            except Exception as e:
-                print(f"Error parsing card: {e}")
-
-        print(f"Successfully scraped {len(self.data)} SmartData courses.")
+            print(f"  Error processing {url}: {e}")
 
 if __name__ == "__main__":
     scraper = SmartDataScraper()
