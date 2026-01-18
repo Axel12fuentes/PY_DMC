@@ -1,5 +1,7 @@
 ﻿source_site,course_name,course_type,price_raw,price_currency,instructor,duration,syllabus_content,certification_type,brochure_url,url,price_original,start_date,modality,certification,methodology,content
-Datapath.ai,Creación de Agentes Inteligentes con Azure,N/A,$100,USD,Eladio Yovera,N/A,N/A,N/A,N/A,https://cursos.datapath.ai/cursos/taller-creacion-de-agentes-inteligentes-con-azure,$200,N/A,Clases en vivo,N/A,N/A,N/A
 Datapath.ai,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,https://cursos.datapath.ai/courses/cursos/bootcamp-data-analyst,N/A,N/A,N/A,N/A,N/A,N/A
+Datapath.ai,N/A,Curso,N/A,N/A,N/A,N/A,N/A,N/A,N/A,https://cursos.datapath.ai/courses/,N/A,N/A,N/A,N/A,N/A,N/A
+Datapath.ai,Creación de Agentes Inteligentes con Azure,N/A,$100,USD,Eladio Yovera,N/A,N/A,N/A,N/A,https://cursos.datapath.ai/cursos/taller-creacion-de-agentes-inteligentes-con-azure,$200,N/A,Clases en vivo,N/A,N/A,N/A
 Datapath.ai,Creación de Agentes Inteligentes con Databricks,N/A,$100,USD,Eladio Yovera,N/A,N/A,N/A,N/A,https://cursos.datapath.ai/cursos/taller-de-creacion-de-agentes-inteligentes-con-databricks,$200,N/A,Clases en vivo,N/A,N/A,N/A
+Datapath.ai,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,https://cursos.datapath.ai/courses/template/style-guide,N/A,N/A,N/A,N/A,N/A,N/A
 Datapath.ai,Creación de agentes inteligentes con AWS,N/A,$80,USD,Alvaro Maravi,N/A,N/A,N/A,N/A,https://cursos.datapath.ai/cursos/taller-de-creacion-de-agentes-inteligentes-con-aws,$200,N/A,Clases en vivo,N/A,N/A,N/A

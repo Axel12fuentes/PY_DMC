@@ -42,14 +42,21 @@ class UniversalScraper(BaseScraper):
             course_urls = set()
             
             # Patrones comunes para identificar cursos
-            course_patterns = ["/curso/", "/cursos/", "/especializacion/", "/producto/", 
-                             "/bootcamp", "/diploma", "/course/"]
+            course_patterns = [
+                "/curso/", "/cursos/", "/especializacion/", "/producto/", 
+                "/bootcamp", "/diploma", "/course/",
+                "/cursos-y-certificaciones-internacionales/"  # New Horizons
+            ]
+            
+            # Palabras a excluir
+            exclude_patterns = ["login", "category", "filtro", "cart", "ver-todas", 
+                              "gad_source", "utm_", "search"]
             
             for link in links:
                 href = link.get_attribute("href")
                 if href and any(pattern in href.lower() for pattern in course_patterns):
-                    # Filtrar links administrativos
-                    if not any(skip in href.lower() for skip in ["login", "category", "filtro", "cart"]):
+                    # Filtrar links administrativos usando exclude_patterns
+                    if not any(skip in href.lower() for skip in exclude_patterns):
                         if href.startswith("/"):
                             # Construir URL absoluta
                             from urllib.parse import urljoin

@@ -1,0 +1,422 @@
+
+🧪 MODO PRUEBA: Scrapeando 13 plataformas (2 cursos c/u)
+⏱️  Tiempo estimado: 30-60 minutos
+💰 Llamadas LLM estimadas: ~50-100 (GPT-4o)
+🎯 Objetivo: Verificar funcionamiento del sistema
+
+⚡ Presiona ENTER para continuar o CTRL+C para cancelar...
+================================================================================
+🎯 [1/13] Datapath.ai
+================================================================================
+
+🚀 Starting ENHANCED LLM scraper for Datapath.ai...
+   Using GPT-4o for intelligent catalog discovery
+
+📑 Analizando catálogo página 1: https://cursos.datapath.ai/...
+   ✅ GPT-4o encontró 3 cursos
+
+📊 TOTAL de cursos únicos encontrados: 3
+🧪 MODO PRUEBA: Limitando a 2 cursos
+
+[1/2] Scraping: https://cursos.datapath.ai/cursos/taller-de-creacion-de-agentes-inteligentes-con...
+    ✓ Creación de agentes inteligentes con AWS
+
+[2/2] Scraping: https://cursos.datapath.ai/cursos/taller-de-creacion-de-agentes-inteligentes-con...
+    ✓ Creación de Agentes Inteligentes con Databricks
+
+✅ Scraping completo: 2 cursos extraídos
+Data saved to output/datapath.ai_database.csv
+
+✅ Datapath.ai: 2 cursos extraídos
+💾 Checkpoint guardado
+
+================================================================================
+🎯 [2/13] DataScience Peru
+================================================================================
+
+🚀 Starting ENHANCED LLM scraper for DataScience Peru...
+   Using GPT-4o for intelligent catalog discovery
+
+📑 Analizando catálogo página 1: https://www.datascience.pe/lista-cursos...
+   ✅ GPT-4o encontró 2 cursos
+
+📊 TOTAL de cursos únicos encontrados: 2
+🧪 MODO PRUEBA: Limitando a 2 cursos
+
+[1/2] Scraping: https://www.datascience.pe/detalle/curso-gratuito/buenas-practicas-python...
+    ✓ Buenas Prácticas en Python
+
+[2/2] Scraping: https://www.datascience.pe/detalle/curso-gratuito/especializacion-data-engineer...
+    ✓ Especialización Data Engineer
+
+✅ Scraping completo: 2 cursos extraídos
+Data saved to output/datascience_peru_database.csv
+
+✅ DataScience Peru: 2 cursos extraídos
+💾 Checkpoint guardado
+
+================================================================================
+🎯 [3/13] DMC
+================================================================================
+
+🚀 Starting ENHANCED LLM scraper for DMC...
+   Using GPT-4o for intelligent catalog discovery
+
+📑 Analizando catálogo página 1: https://dmc.pe/cursos/...
+   ✅ GPT-4o encontró 5 cursos
+   🔗 Siguiente página detectada: https://dmc.pe/cursos/page/2
+
+📑 Analizando catálogo página 2: https://dmc.pe/cursos/page/2...
+   ✅ GPT-4o encontró 3 cursos
+   🔗 Siguiente página detectada: https://dmc.pe/cursos/page/3
+
+📑 Analizando catálogo página 3: https://dmc.pe/cursos/page/3...
+   ✅ GPT-4o encontró 3 cursos
+   🔗 Siguiente página detectada: https://dmc.pe/cursos/page/4
+
+📑 Analizando catálogo página 4: https://dmc.pe/cursos/page/4...
+   ✅ GPT-4o encontró 3 cursos
+
+📊 TOTAL de cursos únicos encontrados: 6
+🧪 MODO PRUEBA: Limitando a 2 cursos
+
+[1/2] Scraping: https://dmc.pe/curso/analisis-de-datos...
+    ✓ Análisis de datos.
+
+[2/2] Scraping: https://dmc.pe/diplomado/marketing-digital...
+    ✓ N/A
+
+✅ Scraping completo: 2 cursos extraídos
+Data saved to output/dmc_database.csv
+
+✅ DMC: 2 cursos extraídos
+💾 Checkpoint guardado
+
+================================================================================
+🎯 [4/13] SmartData
+================================================================================
+
+🚀 Starting ENHANCED LLM scraper for SmartData...
+   Using GPT-4o for intelligent catalog discovery
+
+📑 Analizando catálogo página 1: https://smartdata.com.pe/cursos/...
+   ✅ GPT-4o encontró 3 cursos
+
+📊 TOTAL de cursos únicos encontrados: 3
+🧪 MODO PRUEBA: Limitando a 2 cursos
+
+[1/2] Scraping: https://smartdata.com.pe/programa/data-science...
+    ✓ N/A
+
+[2/2] Scraping: https://smartdata.com.pe/cursos/especializacion-ia...
+    ✓ N/A
+
+✅ Scraping completo: 2 cursos extraídos
+Data saved to output/smartdata_database.csv
+
+✅ SmartData: 2 cursos extraídos
+💾 Checkpoint guardado
+
+================================================================================
+🎯 [5/13] NewHorizons
+================================================================================
+
+🚀 Starting ENHANCED LLM scraper for NewHorizons...
+   Using GPT-4o for intelligent catalog discovery
+
+📑 Analizando catálogo página 1: https://www.newhorizons.edu.pe/...
+   ✅ GPT-4o encontró 10 cursos
+
+📊 TOTAL de cursos únicos encontrados: 10
+🧪 MODO PRUEBA: Limitando a 2 cursos
+
+[1/2] Scraping: https://www.newhorizons.edu.pe/cursos-y-certificaciones-internacionales/educacio...
+    ✓ N/A
+
+[2/2] Scraping: https://www.newhorizons.edu.pe/cursos-y-certificaciones-internacionales/gestion-...
+    ✓ Gestión y Procesos de TI
+
+✅ Scraping completo: 2 cursos extraídos
+Data saved to output/newhorizons_database.csv
+
+✅ NewHorizons: 2 cursos extraídos
+💾 Checkpoint guardado
+
+================================================================================
+🎯 [6/13] BSG Institute
+================================================================================
+
+🚀 Starting ENHANCED LLM scraper for BSG Institute...
+   Using GPT-4o for intelligent catalog discovery
+
+📑 Analizando catálogo página 1: https://bsginstitute.com/...
+   ⚠️  Error en página: Timeout 30000ms exceeded.
+
+📊 TOTAL de cursos únicos encontrados: 0
+🧪 MODO PRUEBA: Limitando a 2 cursos
+
+✅ Scraping completo: 0 cursos extraídos
+Data saved to output/bsg_institute_database.csv
+
+✅ BSG Institute: 0 cursos extraídos
+💾 Checkpoint guardado
+
+================================================================================
+🎯 [7/13] WE Educación
+================================================================================
+
+🚀 Starting ENHANCED LLM scraper for WE Educación...
+   Using GPT-4o for intelligent catalog discovery
+
+📑 Analizando catálogo página 1: https://we-educacion.com/...
+   ⚠️  Error en página: Timeout 30000ms exceeded.
+
+📊 TOTAL de cursos únicos encontrados: 0
+🧪 MODO PRUEBA: Limitando a 2 cursos
+
+✅ Scraping completo: 0 cursos extraídos
+Data saved to output/we_educación_database.csv
+
+✅ WE Educación: 0 cursos extraídos
+💾 Checkpoint guardado
+
+================================================================================
+🎯 [8/13] PUCP InfoPUCP
+================================================================================
+
+🚀 Starting ENHANCED LLM scraper for PUCP InfoPUCP...
+   Using GPT-4o for intelligent catalog discovery
+
+📑 Analizando catálogo página 1: https://infopucp.pucp.edu.pe/...
+   ✅ GPT-4o encontró 5 cursos
+
+📊 TOTAL de cursos únicos encontrados: 5
+🧪 MODO PRUEBA: Limitando a 2 cursos
+
+[1/2] Scraping: https://infopucp.pucp.edu.pe/propuesta_academica/gamificacion-en-el-aula-transfo...
+    ✓ Gamificación en el Aula: Transformando el Aprendizaje con Escape Rooms e Inteligencia Artificial
+
+[2/2] Scraping: https://infopucp.pucp.edu.pe/propuesta_academica/alquimia-digital-transforma-tu-...
+    ✓ Alquimia Digital: Transforma tu Práctica Docente con IA
+
+✅ Scraping completo: 2 cursos extraídos
+Data saved to output/pucp_infopucp_database.csv
+
+✅ PUCP InfoPUCP: 2 cursos extraídos
+💾 Checkpoint guardado
+
+================================================================================
+🎯 [9/13] PUCP Educación Continua - Cursos
+================================================================================
+
+🚀 Starting ENHANCED LLM scraper for PUCP Educación Continua - Cursos...
+   Using GPT-4o for intelligent catalog discovery
+
+📑 Analizando catálogo página 1: https://educacioncontinua.pucp.edu.pe/tipo-de-actividad/cursos/...
+   ✅ GPT-4o encontró 3 cursos
+   🔗 Siguiente página detectada: https://educacioncontinua.pucp.edu.pe/tipo-de-actividad/cursos/page/2/
+
+📑 Analizando catálogo página 2: https://educacioncontinua.pucp.edu.pe/tipo-de-actividad/cursos/page/2/...
+   ✅ GPT-4o encontró 5 cursos
+   🔗 Siguiente página detectada: https://educacioncontinua.pucp.edu.pe/tipo-de-actividad/cursos/page/3/
+
+📑 Analizando catálogo página 3: https://educacioncontinua.pucp.edu.pe/tipo-de-actividad/cursos/page/3/...
+   ✅ GPT-4o encontró 3 cursos
+   🔗 Siguiente página detectada: https://educacioncontinua.pucp.edu.pe/tipo-de-actividad/cursos/page/4/
+
+📑 Analizando catálogo página 4: https://educacioncontinua.pucp.edu.pe/tipo-de-actividad/cursos/page/4/...
+   ✅ GPT-4o encontró 3 cursos
+   🔗 Siguiente página detectada: https://educacioncontinua.pucp.edu.pe/tipo-de-actividad/cursos/page/5/
+
+📑 Analizando catálogo página 5: https://educacioncontinua.pucp.edu.pe/tipo-de-actividad/cursos/page/5/...
+   ✅ GPT-4o encontró 3 cursos
+   🔗 Siguiente página detectada: https://educacioncontinua.pucp.edu.pe/tipo-de-actividad/cursos/page/6/
+
+📑 Analizando catálogo página 6: https://educacioncontinua.pucp.edu.pe/tipo-de-actividad/cursos/page/6/...
+   ✅ GPT-4o encontró 5 cursos
+   🔗 Siguiente página detectada: https://educacioncontinua.pucp.edu.pe/tipo-de-actividad/cursos/page/7/
+
+📑 Analizando catálogo página 7: https://educacioncontinua.pucp.edu.pe/tipo-de-actividad/cursos/page/7/...
+   ✅ GPT-4o encontró 5 cursos
+   🔗 Siguiente página detectada: https://educacioncontinua.pucp.edu.pe/tipo-de-actividad/cursos/page/8/
+
+📑 Analizando catálogo página 8: https://educacioncontinua.pucp.edu.pe/tipo-de-actividad/cursos/page/8/...
+   ✅ GPT-4o encontró 3 cursos
+   🔗 Siguiente página detectada: https://educacioncontinua.pucp.edu.pe/tipo-de-actividad/cursos/page/9/
+
+📑 Analizando catálogo página 9: https://educacioncontinua.pucp.edu.pe/tipo-de-actividad/cursos/page/9/...
+   ✅ GPT-4o encontró 3 cursos
+   🔗 Siguiente página detectada: https://educacioncontinua.pucp.edu.pe/tipo-de-actividad/cursos/page/10/
+
+📑 Analizando catálogo página 10: https://educacioncontinua.pucp.edu.pe/tipo-de-actividad/cursos/page/10/...
+   ⚠️  GPT-4o encontró 0 cursos, activando fallback...
+   🔧 Usando fallback de patrones de URL...
+   ✅ Fallback encontró 2 cursos
+
+📊 TOTAL de cursos únicos encontrados: 12
+🧪 MODO PRUEBA: Limitando a 2 cursos
+
+[1/2] Scraping: https://educacioncontinua.pucp.edu.pe/especializacion/finanzas-corporativas...
+    ✓ N/A
+
+[2/2] Scraping: https://educacioncontinua.pucp.edu.pe/programa/data-science...
+    ✓ N/A
+
+✅ Scraping completo: 2 cursos extraídos
+Data saved to output/pucp_educación_continua_-_cursos_database.csv
+
+✅ PUCP Educación Continua - Cursos: 2 cursos extraídos
+💾 Checkpoint guardado
+
+================================================================================
+🎯 [10/13] PUCP Educación Continua - Programas
+================================================================================
+
+🚀 Starting ENHANCED LLM scraper for PUCP Educación Continua - Programas...
+   Using GPT-4o for intelligent catalog discovery
+
+📑 Analizando catálogo página 1: https://educacioncontinua.pucp.edu.pe/tipo-de-actividad/programas/...
+   ✅ GPT-4o encontró 3 cursos
+   🔗 Siguiente página detectada: https://educacioncontinua.pucp.edu.pe/tipo-de-actividad/programas/page/2/
+
+📑 Analizando catálogo página 2: https://educacioncontinua.pucp.edu.pe/tipo-de-actividad/programas/page/2/...
+   ✅ GPT-4o encontró 3 cursos
+   🔗 Siguiente página detectada: https://educacioncontinua.pucp.edu.pe/tipo-de-actividad/programas/page/3/
+
+📑 Analizando catálogo página 3: https://educacioncontinua.pucp.edu.pe/tipo-de-actividad/programas/page/3/...
+   ✅ GPT-4o encontró 3 cursos
+   🔗 Siguiente página detectada: https://educacioncontinua.pucp.edu.pe/tipo-de-actividad/programas/page/4/
+
+📑 Analizando catálogo página 4: https://educacioncontinua.pucp.edu.pe/tipo-de-actividad/programas/page/4/...
+   ✅ GPT-4o encontró 3 cursos
+   🔗 Siguiente página detectada: https://educacioncontinua.pucp.edu.pe/tipo-de-actividad/programas/page/5/
+
+📑 Analizando catálogo página 5: https://educacioncontinua.pucp.edu.pe/tipo-de-actividad/programas/page/5/...
+   ✅ GPT-4o encontró 3 cursos
+   🔗 Siguiente página detectada: https://educacioncontinua.pucp.edu.pe/tipo-de-actividad/programas/page/6/
+
+📑 Analizando catálogo página 6: https://educacioncontinua.pucp.edu.pe/tipo-de-actividad/programas/page/6/...
+   ✅ GPT-4o encontró 3 cursos
+   🔗 Siguiente página detectada: https://educacioncontinua.pucp.edu.pe/tipo-de-actividad/programas/page/7/
+
+📑 Analizando catálogo página 7: https://educacioncontinua.pucp.edu.pe/tipo-de-actividad/programas/page/7/...
+   ⚠️  GPT-4o encontró 0 cursos, activando fallback...
+   🔧 Usando fallback de patrones de URL...
+   ✅ Fallback encontró 2 cursos
+
+📊 TOTAL de cursos únicos encontrados: 6
+🧪 MODO PRUEBA: Limitando a 2 cursos
+
+[1/2] Scraping: https://educacioncontinua.pucp.edu.pe/tipo-de-actividad/cursos/...
+    ✓ N/A
+
+[2/2] Scraping: https://educacioncontinua.pucp.edu.pe/tipo-de-actividad/programas/...
+    ✓ N/A
+
+✅ Scraping completo: 2 cursos extraídos
+Data saved to output/pucp_educación_continua_-_programas_database.csv
+
+✅ PUCP Educación Continua - Programas: 2 cursos extraídos
+💾 Checkpoint guardado
+
+================================================================================
+🎯 [11/13] UPC Postgrado
+================================================================================
+
+🚀 Starting ENHANCED LLM scraper for UPC Postgrado...
+   Using GPT-4o for intelligent catalog discovery
+
+📑 Analizando catálogo página 1: https://postgrado.upc.edu.pe/landings/programas-especializados/...
+   ⚠️  Error en página: Timeout 30000ms exceeded.
+
+📊 TOTAL de cursos únicos encontrados: 0
+🧪 MODO PRUEBA: Limitando a 2 cursos
+
+✅ Scraping completo: 0 cursos extraídos
+Data saved to output/upc_postgrado_database.csv
+
+✅ UPC Postgrado: 0 cursos extraídos
+💾 Checkpoint guardado
+
+================================================================================
+🎯 [12/13] ED Team
+================================================================================
+
+🚀 Starting ENHANCED LLM scraper for ED Team...
+   Using GPT-4o for intelligent catalog discovery
+
+📑 Analizando catálogo página 1: https://ed.team/cursos...
+   ✅ GPT-4o encontró 3 cursos
+
+📊 TOTAL de cursos únicos encontrados: 3
+🧪 MODO PRUEBA: Limitando a 2 cursos
+
+[1/2] Scraping: https://ed.team/programa/data-science...
+    ✓ N/A
+
+[2/2] Scraping: https://ed.team/curso/python-avanzado...
+    ✓ N/A
+
+✅ Scraping completo: 2 cursos extraídos
+Data saved to output/ed_team_database.csv
+
+✅ ED Team: 2 cursos extraídos
+💾 Checkpoint guardado
+
+================================================================================
+🎯 [13/13] Platzi
+================================================================================
+
+🚀 Starting ENHANCED LLM scraper for Platzi...
+   Using GPT-4o for intelligent catalog discovery
+
+📑 Analizando catálogo página 1: https://platzi.com/cursos/...
+   ⚠️  Error en página: Timeout 30000ms exceeded.
+
+📊 TOTAL de cursos únicos encontrados: 0
+🧪 MODO PRUEBA: Limitando a 2 cursos
+
+✅ Scraping completo: 0 cursos extraídos
+Data saved to output/platzi_database.csv
+
+✅ Platzi: 0 cursos extraídos
+💾 Checkpoint guardado
+
+================================================================================
+✅ SCRAPING COMPLETADO
+   Total de cursos extraídos en esta ejecución: 18
+================================================================================
+
+================================================================================
+📊 CONSOLIDANDO CSVs...
+================================================================================
+⚠️  No encontrado: output/datapath_database.csv
+⚠️  No encontrado: output/datascience_database.csv
+✓ DMC: 2 cursos
+✓ SmartData: 3 cursos
+✓ NewHorizons: 11 cursos
+⚠️  No encontrado: output/bsg_database.csv
+⚠️  No encontrado: output/we_educacion_database.csv
+⚠️  No encontrado: output/pucp_info_database.csv
+⚠️  No encontrado: output/pucp_educon_cursos_database.csv
+⚠️  No encontrado: output/pucp_educon_programas_database.csv
+⚠️  No encontrado: output/upc_database.csv
+⚠️  No encontrado: output/edteam_database.csv
+⚠️  Error leyendo output/platzi_database.csv: No columns to parse from file
+
+✅ CSV CONSOLIDADO CREADO:
+   📁 output/MASTER_courses_database_20260118_135959.csv
+   📊 Total de cursos únicos: 16
+   🏢 Plataformas: 3
+
+📈 Distribución por plataforma:
+   • NewHorizons: 11 cursos
+   • SmartData: 3 cursos
+   • DMC: 2 cursos
+
+🧹 Checkpoint limpiado (scraping 100% completo)
+
+================================================================================
+🎉 PROCESO COMPLETO
+📁 Brochures descargados en: scrapers/downloads/
+================================================================================

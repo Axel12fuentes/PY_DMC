@@ -1,12 +1,16 @@
-﻿source_site,course_name,course_type,price_raw,price_currency,instructor,duration,syllabus_content,certification_type,brochure_url,url,price_raw_original,start_date,content_updated,instructor_exp,methodology,certification
-SmartData,Ciencia de Datos e IA Generativa con Python – Smart Data,Curso,N/A,USD,N/A,N/A,N/A,N/A,N/A,https://smartdata.com.pe/curso/ciencia-datos-ia-generativa-python/,N/A,N/A,N/A,N/A,N/A,N/A
-SmartData,Ciberseguridad en Azure – Smart Data,Curso,N/A,USD,N/A,N/A,N/A,N/A,N/A,https://smartdata.com.pe/curso/ciberseguridad-en-azure/,N/A,N/A,N/A,N/A,N/A,N/A
-SmartData,Ingeniería de Datos e IA con Databricks – Smart Data,Curso,N/A,USD,N/A,N/A,N/A,N/A,N/A,https://smartdata.com.pe/curso/ingenieria-datos-ia-con-databricks/,N/A,N/A,N/A,N/A,N/A,N/A
-SmartData,Automatización y Agentes IA con Microsoft Power Platform – Smart Data,Curso,N/A,USD,N/A,N/A,N/A,N/A,N/A,https://smartdata.com.pe/curso/automatizacion-agentes-ia-microsoft-power-platform/,N/A,N/A,N/A,N/A,N/A,N/A
-SmartData,Chief AI Officer: Estrategia e Implementación de IA y Datos – Smart Data,Curso,N/A,USD,N/A,N/A,N/A,N/A,N/A,https://smartdata.com.pe/curso/chief-ai-officer-estrategia-ia-datos/,N/A,N/A,N/A,N/A,N/A,N/A
-SmartData,Ingeniería de Datos e IA con Azure – Smart Data,Curso,N/A,USD,N/A,N/A,N/A,N/A,N/A,https://smartdata.com.pe/curso/ingenieria-datos-ia-azure/,N/A,N/A,N/A,N/A,N/A,N/A
-SmartData,Arquitecto de Soluciones en AWS – Smart Data,Curso,N/A,USD,N/A,N/A,N/A,N/A,N/A,https://smartdata.com.pe/curso/arquitecto-soluciones-aws/,N/A,N/A,N/A,N/A,N/A,N/A
-SmartData,Power BI Data Analyst & Storytelling – Smart Data,Curso,N/A,USD,N/A,N/A,N/A,N/A,N/A,https://smartdata.com.pe/curso/power-bi-data-analyst-storytelling/,N/A,N/A,N/A,N/A,N/A,N/A
-SmartData,Análisis de Datos con SQL – Smart Data,Curso,N/A,USD,N/A,N/A,N/A,N/A,N/A,https://smartdata.com.pe/curso/analisis-datos-sql/,N/A,N/A,N/A,N/A,N/A,N/A
-SmartData,Página no encontrada – Smart Data,Curso,N/A,USD,N/A,N/A,N/A,N/A,N/A,https://smartdata.com.pe/curso/estrategia-gobierno-datos/,N/A,N/A,N/A,N/A,N/A,N/A
-SmartData,Ingeniería de Datos e IA con GCP – Smart Data,Curso,N/A,USD,N/A,N/A,N/A,N/A,N/A,https://smartdata.com.pe/curso/ingenieria-datos-ia-gcp/,N/A,N/A,N/A,N/A,N/A,N/A
+﻿source_site,course_name,course_type,price_raw,price_currency,instructor,duration,syllabus_content,certification_type,brochure_url,url,price_original,start_date,modality,certification,methodology,content
+SmartData,Ingeniería de Datos e IA con AWS,Curso,S/480,PEN,José Zamalloa,120 horas,N/A,N/A,N/A,https://smartdata.com.pe/curso/ingenieria-datos-ia-aws/,S/600,N/A,En vivo,N/A,N/A,N/A
+SmartData,Ciencia de Datos e IA Generativa con Python,Curso,S/480,PEN,N/A,120 horas,N/A,N/A,N/A,https://smartdata.com.pe/curso/ciencia-datos-ia-generativa-python/,S/600,N/A,N/A,N/A,N/A,N/A
+SmartData,Chief AI Officer: Estrategia e Implementación de IA y Datos,N/A,N/A,N/A,Antonio Ramírez,N/A,N/A,N/A,N/A,https://smartdata.com.pe/curso/chief-ai-officer-estrategia-ia-datos/,N/A,N/A,N/A,N/A,N/A,N/A
+SmartData,Arquitecto de Soluciones en Azure,Curso,S/480,PEN,N/A,120 horas,N/A,N/A,N/A,https://smartdata.com.pe/curso/arquitecto-soluciones-azure/,S/600,N/A,N/A,N/A,N/A,N/A
+SmartData,DevSecOps con Microsoft Azure,Curso,S/480,PEN,N/A,120 horas,N/A,N/A,N/A,https://smartdata.com.pe/curso/devsecops-con-microsoft-azure/,S/600,N/A,En vivo,N/A,N/A,N/A
+SmartData,Ingenieria de Datos con Microsoft Fabric,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,https://smartdata.com.pe/curso/ingenieria-datos-con-microsoft-fabric/,N/A,N/A,N/A,N/A,N/A,N/A
+SmartData,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,https://smartdata.com.pe/cursos/,N/A,N/A,N/A,N/A,N/A,N/A
+SmartData,Análisis de Datos con SQL,Curso,S/480,PEN,N/A,120 horas,N/A,N/A,N/A,https://smartdata.com.pe/curso/analisis-datos-sql/,S/600,N/A,N/A,N/A,N/A,N/A
+SmartData,Automatización y Agentes IA con Microsoft Power Platform,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,https://smartdata.com.pe/curso/automatizacion-agentes-ia-microsoft-power-platform/,N/A,N/A,N/A,N/A,N/A,N/A
+SmartData,IA Generativa Aplicada: LLM’s y Automatización Inteligente,Curso,S/480,PEN,N/A,120 horas,N/A,N/A,N/A,https://smartdata.com.pe/curso/ia-generativa-aplicada-llm-automatizacion-inteligente/,S/600,N/A,En vivo,N/A,N/A,N/A
+SmartData,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,https://smartdata.com.pe/curso/estrategia-gobierno-datos/,N/A,N/A,N/A,N/A,N/A,N/A
+SmartData,Ingeniería de Datos e IA con GCP,Curso,S/480,PEN,Danny Yáñez,120 horas,N/A,N/A,N/A,https://smartdata.com.pe/curso/ingenieria-datos-ia-gcp/,S/600,N/A,En vivo,N/A,N/A,N/A
+SmartData,Ingeniería de Datos e IA con Databricks,N/A,N/A,N/A,N/A,N/A,N/A,N/A,N/A,https://smartdata.com.pe/curso/ingenieria-datos-ia-con-databricks/,N/A,N/A,N/A,N/A,N/A,N/A
+SmartData,Ciberseguridad en Azure,Curso,S/480,PEN,N/A,120 horas,N/A,N/A,N/A,https://smartdata.com.pe/curso/ciberseguridad-en-azure/,S/600,N/A,En vivo,N/A,N/A,N/A
+SmartData,Arquitecto de Soluciones en AWS,Curso,S/480,PEN,José Zamalloa,120 horas,N/A,N/A,N/A,https://smartdata.com.pe/curso/arquitecto-soluciones-aws/,S/600,N/A,En vivo,N/A,N/A,N/A

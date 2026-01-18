@@ -1,0 +1,81 @@
+﻿source_site,course_name,course_type,price_raw,price_currency,instructor,duration,syllabus_content,certification_type,brochure_url,url,price_original,start_date,modality,certification,methodology,content
+ED Team,Curso: Inteligencia Artificial para todos (2026),Curso,$40,USD,N/A,2 horas,N/A,N/A,N/A,https://ed.team/cursos/ia,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Crea agentes de voz con n8n,Curso,$15,USD,N/A,3 horas,N/A,N/A,N/A,https://ed.team/cursos/agentes-n8n,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Taller: Tu primer portafolio web profesional con Astro,Curso,$28,USD,N/A,5 horas,N/A,N/A,N/A,https://ed.team/cursos/astro-portafolio,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Microsoft Azure desde cero,Curso,$20,USD,N/A,4 horas,N/A,N/A,N/A,https://ed.team/cursos/azure,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Creación de Apps con React Native,Curso,$25,USD,N/A,N/A,N/A,N/A,N/A,https://ed.team/cursos/react-native,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Affinity Designer 2 desde cero (2025),Curso,$28,USD,N/A,8 horas,N/A,N/A,N/A,https://ed.team/cursos/affinity-designer,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Big Data con Apache Spark,Curso,$15,USD,N/A,N/A,N/A,N/A,N/A,https://ed.team/cursos/apache-spark,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Terraform desde cero,Curso,$25,USD,N/A,5 horas,N/A,N/A,N/A,https://ed.team/cursos/terraform,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Hacking ético: Elevación de privilegios en Linux,Curso,$30,USD,N/A,6 horas,N/A,N/A,N/A,https://ed.team/cursos/seguridad-linux,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Notion desde cero con IA,Curso,$60,USD,N/A,4 horas,N/A,N/A,N/A,https://ed.team/cursos/notion,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Angular avanzado,Curso,$40,USD,N/A,8 horas,N/A,N/A,N/A,https://ed.team/cursos/angular-avanzado,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: C# desde cero,Curso,$20,USD,N/A,4 horas,N/A,N/A,N/A,https://ed.team/cursos/csharp,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Taller: EDcamp 2024: Tu primera app con IA,N/A,$100,USD,N/A,3 horas,N/A,N/A,N/A,https://ed.team/cursos/edcamp-2024-ia,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Taller: Crea una app de reseñas para iOS con SwiftUI e Inteligencia Artificial,curso,$35,USD,N/A,5 horas,N/A,N/A,N/A,https://ed.team/cursos/app-swift,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Taller: Vibe Coding para programadores,Curso,$35,USD,N/A,6 horas,N/A,N/A,N/A,https://ed.team/cursos/vibecoding,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Crea aplicaciones con la API de OpenAI,Curso,$15,USD,N/A,3 horas,N/A,N/A,N/A,https://ed.team/cursos/openai,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Pruebas de carga y rendimiento con JMeter,Curso,$20,USD,N/A,4 horas,N/A,N/A,N/A,https://ed.team/cursos/jmeter,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Programación desde cero con Inteligencia Artificial,Curso,$60,USD,N/A,5 horas,N/A,N/A,N/A,https://ed.team/cursos/programacion,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Arquitectura hexagonal en Node.js,Curso,$25,USD,N/A,4 horas,N/A,N/A,N/A,https://ed.team/cursos/arquitectura-hexagonal,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Redes Neuronales con PyTorch,Curso,$25,USD,N/A,4 horas,N/A,N/A,N/A,https://ed.team/cursos/pytorch,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Cómo crear tu propio LLM,Curso,$20,USD,N/A,3 horas,N/A,N/A,N/A,https://ed.team/cursos/llm,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: ¿Cómo publicar tu app en Google Play?,Curso,$10,USD,N/A,3 horas,N/A,N/A,N/A,https://ed.team/cursos/google-play,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Canva para negocios y marketing digital,Curso,$20,USD,N/A,4 horas,N/A,N/A,N/A,https://ed.team/cursos/canva-negocios,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Automatizalo TODO con n8n,Curso,$20,USD,N/A,5 horas,N/A,N/A,N/A,https://ed.team/cursos/n8n,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Crea aplicaciones IA con Python y LangChain,Curso,$20,USD,N/A,3 horas,N/A,N/A,N/A,https://ed.team/cursos/langchain,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Fundamentos de Ingeniería de Datos,Curso,$20,USD,N/A,3 horas,N/A,N/A,N/A,https://ed.team/cursos/ingenieria-datos,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Manejo de eventos en laravel,Curso,$20,USD,N/A,4 horas,N/A,N/A,N/A,https://ed.team/cursos/eventos-laravel,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Astro desde cero,Curso,$30,USD,N/A,6 horas,N/A,N/A,N/A,https://ed.team/cursos/astro,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Creación de interfaces con SwiftUI,Curso,$25,USD,N/A,5 horas,N/A,N/A,N/A,https://ed.team/cursos/swiftui,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Python desde cero 2023,Curso,$25,USD,N/A,6 horas,N/A,N/A,N/A,https://ed.team/cursos/python,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Taller: Desarrolla un sistema de reservas con Spring Boot y Angular,Curso,$49,USD,N/A,8 horas,N/A,N/A,N/A,https://ed.team/cursos/apis-spring-angular,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Microservicios con Nest.js,Curso,$35,USD,N/A,N/A,N/A,N/A,N/A,https://ed.team/cursos/microservicios-nest,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: HTML desde cero  (2024),Curso,$32,USD,N/A,7 horas,N/A,N/A,N/A,https://ed.team/cursos/html,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Cómo escribir prompts de IA que funcionen,Curso,$20,USD,N/A,3 horas,N/A,N/A,N/A,https://ed.team/cursos/prompts,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Canva desde cero (2025),Curso,$16,USD,N/A,4 horas,N/A,N/A,N/A,https://ed.team/cursos/canva,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Enrutamiento de redes (2025),Curso,$20,USD,N/A,7 horas,N/A,N/A,N/A,https://ed.team/cursos/enrutamiento,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: JavaScript desde cero,Curso,$28,USD,N/A,8 horas,N/A,N/A,N/A,https://ed.team/cursos/javascript,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Construye tu primer emprendimiento desde cero,Curso,$60,USD,N/A,4 horas,N/A,N/A,N/A,https://ed.team/cursos/empresa,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: CI/CD con CircleCI y Jenkins,Curso,$20,USD,N/A,7 horas,N/A,N/A,N/A,https://ed.team/cursos/jenkins-circleci,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: MCP: Conecta la IA con todo,Curso,$40,USD,N/A,4 horas,N/A,N/A,N/A,https://ed.team/cursos/mcp,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Taller: Crea aplicaciones Angular del lado del servidor (SSR),Curso,$35,USD,N/A,6 horas,N/A,N/A,N/A,https://ed.team/cursos/angular-ssr,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Data science para negocios,Curso,$25,USD,N/A,N/A,N/A,N/A,N/A,https://ed.team/cursos/data-science,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Domina las estructuras de datos con Inteligencia Artificial,Curso,$20,USD,N/A,5 horas,N/A,N/A,N/A,https://ed.team/cursos/estructuras-datos,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Pipelines CI/CD en Azure DevOps,Curso,$35,USD,N/A,9 horas,N/A,N/A,N/A,https://ed.team/cursos/ci-cd-azure,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Gestión reactiva en Angular con RxJS,Curso,$25,USD,N/A,6 horas,N/A,N/A,N/A,https://ed.team/cursos/gestion-reactiva,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Desarrollo full stack con IA,Curso,$60,USD,N/A,N/A,N/A,N/A,N/A,https://ed.team/cursos/fullstack-ia,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Diseño con IA en Canva (2025),Curso,$25,USD,N/A,5 horas,N/A,N/A,N/A,https://ed.team/cursos/canva-ia,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: ChatGPT para todos. De cero a experto,Curso,$24,USD,N/A,3 horas,N/A,N/A,N/A,https://ed.team/cursos/chatgpt,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Procesamiento de datos en Java con Streams y Lambdas,Curso,$16,USD,N/A,5 horas,N/A,N/A,N/A,https://ed.team/cursos/java-streams-lambdas,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Introducción a Claude para programadores,Curso,$15,USD,N/A,3 horas,N/A,N/A,N/A,https://ed.team/cursos/claude,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Agentes MCP con LangChain,Curso,$15,USD,N/A,N/A,N/A,N/A,N/A,https://ed.team/cursos/mcp-langchain,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Claude Code,Curso,$40,USD,N/A,4 horas,N/A,N/A,N/A,https://ed.team/cursos/claude-code,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Análisis de datos en Python con NumPy y Pandas,Curso,$20,USD,N/A,3 horas,N/A,N/A,N/A,https://ed.team/cursos/analisis-python,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: React desde cero con IA (2026),Curso,$39,USD,N/A,N/A,N/A,N/A,N/A,https://ed.team/cursos/react,$48,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Automatización de servidores con Ansible,Curso,$25,USD,N/A,N/A,N/A,N/A,N/A,https://ed.team/cursos/ansible,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Taller: Análisis de Series Temporales en Negocios e inversiones,Curso,$21,USD,N/A,3 horas,N/A,N/A,N/A,https://ed.team/cursos/series-temporales,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Programación reactiva con Spring Boot,Curso,$15,USD,N/A,5 horas,N/A,N/A,N/A,https://ed.team/cursos/spring-boot,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Taller: Desarrolla apps interactivas con Nuxt y Gemini,Curso,$28,USD,N/A,4 horas,N/A,N/A,N/A,https://ed.team/cursos/nuxt-gemini,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: RAG: Adapta la IA a tu información,Curso,$15,USD,N/A,2 horas,N/A,N/A,N/A,https://ed.team/cursos/rag,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Desarrollo de apps Android con APIs REST,Curso,$20,USD,N/A,6 horas,N/A,N/A,N/A,https://ed.team/cursos/apis-rest-android,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Ingeniería de datos para programadores,Curso,$30,USD,N/A,N/A,N/A,N/A,N/A,https://ed.team/cursos/data-engineering,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Taller: Crea tu primer videojuego con Construct 3,Curso,$28,USD,N/A,3 horas,N/A,N/A,N/A,https://ed.team/cursos/construct3,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Desarrollo multiplataforma con Kotlin,Curso,$20,USD,N/A,5 horas,N/A,N/A,N/A,https://ed.team/cursos/kotlin-multiplatform,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Taller: Desarrolla un Sistema de pedidos con Laravel 11,Curso,$21,USD,N/A,3 horas,N/A,N/A,N/A,https://ed.team/cursos/laravel-aplicacion,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Inteligencia Artificial para todos (2025),Curso,$60,USD,N/A,5 horas,N/A,N/A,N/A,https://ed.team/cursos/ia-2025,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Servicios de IA en Azure,Curso,$20,USD,N/A,4 horas,N/A,N/A,N/A,https://ed.team/cursos/azure-ai,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Aprende Machine Learning desde cero con Scikit Learn,Curso,$20,USD,N/A,3 horas,N/A,N/A,N/A,https://ed.team/cursos/scikit-learn,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,"Curso: Adobe Firefly, la IA generativa de Adobe",Curso,$25,USD,N/A,4 horas,N/A,N/A,N/A,https://ed.team/cursos/firefly,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,"Curso: Supabase, Backend as a Service",Curso,$20,USD,N/A,5 horas,N/A,N/A,N/A,https://ed.team/cursos/supabase,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Manejo de datos con Swift,Curso,$25,USD,N/A,5 horas,N/A,N/A,N/A,https://ed.team/cursos/swift-datos,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Introducción a las arquitecturas limpias,Curso,$7,USD,N/A,N/A,N/A,N/A,N/A,https://ed.team/cursos/arquitectura-limpia,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Introducción al Testing E2E,Curso,$20,USD,N/A,5 horas,N/A,N/A,N/A,https://ed.team/cursos/testing-java,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Kubernetes desde cero (2024),Curso,$35,USD,N/A,8 horas,N/A,N/A,N/A,https://ed.team/cursos/kubernetes,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Creación de imágenes en Midjourney,Curso,$20,USD,N/A,5 horas,N/A,N/A,N/A,https://ed.team/cursos/midjourney,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: CI/CD con IA y GitHub Actions,Curso,$15,USD,N/A,2 horas,N/A,N/A,N/A,https://ed.team/cursos/github-actions,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Nest.js desde cero (2024),Curso,$30,USD,N/A,N/A,N/A,N/A,N/A,https://ed.team/cursos/nest,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Crea y publica librerías en NPM,Curso,$10,USD,N/A,2 horas,N/A,N/A,N/A,https://ed.team/cursos/npm,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,N/A,Curso,N/A,N/A,N/A,N/A,N/A,N/A,N/A,https://ed.team/cursos/gratis,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Concurrencia y manejo de hilos en Java,Curso,$20,USD,N/A,6 horas,N/A,N/A,N/A,https://ed.team/cursos/java-concurrencia,N/A,N/A,N/A,N/A,N/A,N/A
+ED Team,Curso: Domina Hugging face desde cero,Curso,$20,USD,N/A,3 horas,N/A,N/A,N/A,https://ed.team/cursos/huggingface,N/A,N/A,N/A,N/A,N/A,N/A
